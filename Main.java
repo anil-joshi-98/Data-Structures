@@ -229,10 +229,10 @@ class Doubly{
         System.out.println("no sum is equal to x");
     }
 }
-class Main{
+class DllBiggestProgram{
     public static void main(String []args){
         Scanner sc=new Scanner(System.in);
-        Doubly ob=new Doubly();
+        DllBiggestProgram ob=new DllBiggestProgram();
         while(true){
             System.out.printf("1.Insert\n2.Display\n3.Delete\n4.Reverse\n5.Rotate\n6.Reverse group of nodes\n7.Vanish DLL\n8.Get 2 nodes whose data is equal to your entered data\n9.Sort k sorted DLL\n10.Sum of three element is equal or not to the entered number\n11.Exit\n");
             int ch=sc.nextInt();
